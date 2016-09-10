@@ -61,6 +61,9 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Scripts" />
+    <Folder Include="Scripts\Point 1" />
+    <Folder Include="Scripts\Point 1\Subpoint 1.1" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Categories.sql" />
@@ -99,5 +102,10 @@
     <Build Include="dbo\Stored Procedures\Sales by Year.sql" />
     <Build Include="dbo\Stored Procedures\SalesByCategory.sql" />
     <Build Include="dbo\Stored Procedures\Ten Most Expensive Products.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\Point 1\Subpoint 1.1\Task 1.sql" />
+    <None Include="Scripts\Point 1\Subpoint 1.1\Task 2.sql" />
+    <None Include="Scripts\Point 1\Subpoint 1.1\Task 3.sql" />
   </ItemGroup>
 </Project>
