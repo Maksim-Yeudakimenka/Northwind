@@ -69,6 +69,7 @@
     <Folder Include="Scripts\Point 1\Subpoint 1.4" />
     <Folder Include="Scripts\Point 2" />
     <Folder Include="Scripts\Point 2\Subpoint 2.1" />
+    <Folder Include="Scripts\Point 2\Subpoint 2.2" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Categories.sql" />
@@ -122,5 +123,11 @@
     <None Include="Scripts\Point 2\Subpoint 2.1\Task 1.sql" />
     <None Include="Scripts\Point 2\Subpoint 2.1\Task 2.sql" />
     <None Include="Scripts\Point 2\Subpoint 2.1\Task 3.sql" />
+    <None Include="Scripts\Point 2\Subpoint 2.2\Task 1.sql" />
+    <None Include="Scripts\Point 2\Subpoint 2.2\Task 2.sql" />
+    <None Include="Scripts\Point 2\Subpoint 2.2\Task 3.sql" />
+    <None Include="Scripts\Point 2\Subpoint 2.2\Task 4.sql" />
+    <None Include="Scripts\Point 2\Subpoint 2.2\Task 5.sql" />
+    <None Include="Scripts\Point 2\Subpoint 2.2\Task 6.sql" />
   </ItemGroup>
 </Project>
