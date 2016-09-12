@@ -75,6 +75,7 @@
     <Folder Include="Scripts\Point 3" />
     <Folder Include="Scripts\Point 3\Subpoint 3.1" />
     <Folder Include="Scripts\Point 3\Subpoint 3.2" />
+    <Folder Include="Scripts\Point 3\Subpoint 3.3" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Categories.sql" />
@@ -146,8 +147,14 @@
     <None Include="Scripts\Point 3\Subpoint 3.2\Northwind_1.0.dacpac" />
     <None Include="Scripts\Point 3\Subpoint 3.2\Northwind_1.1.dacpac" />
     <None Include="Scripts\Point 3\Subpoint 3.2\Northwind_1.3.dacpac" />
+    <None Include="Scripts\Point 3\Subpoint 3.3\Categories.sql" />
+    <None Include="Scripts\Point 3\Subpoint 3.3\Suppliers.sql" />
+    <None Include="Scripts\Point 3\Subpoint 3.3\Products.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Northwind.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Point 3\Subpoint 3.3\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
