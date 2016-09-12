@@ -143,4 +143,7 @@
     <None Include="Scripts\Point 3\Subpoint 3.1\Version 1.1.sql" />
     <None Include="Scripts\Point 3\Subpoint 3.1\Version 1.3.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Northwind.refactorlog" />
+  </ItemGroup>
 </Project>
