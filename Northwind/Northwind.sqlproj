@@ -112,6 +112,7 @@
     <Build Include="dbo\Stored Procedures\Sales by Year.sql" />
     <Build Include="dbo\Stored Procedures\SalesByCategory.sql" />
     <Build Include="dbo\Stored Procedures\Ten Most Expensive Products.sql" />
+    <Build Include="dbo\Tables\CreditCards.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Point 1\Subpoint 1.1\Task 1.sql" />
