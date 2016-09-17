@@ -1,8 +1,8 @@
-﻿-- Найти всех покупателей, которые живут в одном городе
+﻿-- Найти количество покупателей, которые живут в одном городе
 
 SELECT
-  CustomerID,
-  ContactName,
-  City
+  City,
+  COUNT(*) AS 'Customer Count'
 FROM Customers
-ORDER BY City
+GROUP BY City
+ORDER BY 'Customer Count'
